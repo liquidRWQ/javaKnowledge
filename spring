@@ -11,9 +11,6 @@ beanDifinationReader加载配置文件，并将配置文件的bean都解析成Be
 封装了一个HashMap，以beanName为键，对象为值进行保存。
 Spring再对BeanDifination对象进行实例化和赋值形成一个装有对象的容器。
 
-spring扫码
-注册bean对象到ioc容器中。
-
 
 3.springAOP是什么？
 
