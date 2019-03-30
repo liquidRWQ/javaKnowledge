@@ -1,5 +1,5 @@
 1.mysql的引擎
-默认是InnoDB,还有MyISAM，Memoryd等
+默认是InnoDB,还有MyISAM，Memory等
 
 2.InnoDB和MyISAM引擎的区别
 InnoDB支持事务，MyISAM不支持
@@ -86,7 +86,7 @@ mysql索引分为聚集索引和非聚集索引。
 
 12.死锁怎么办
 
-降低隔离基本，用索引查找数据，将事务减小
+降低隔离级别，用索引查找数据，将事务减小
 
 
 
