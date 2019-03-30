@@ -7,8 +7,8 @@
 2.SpringIoc的初始化过程
 用Resource定位配置文件
 创建BeanFactory的实现类。
-beanDifinationReader加载配置文件，并将配置文件的bean都解析成BeanDifination对象并保存到BeanDifinationRegistry的实现类中，BeanDifinationRegistry的实现类
-封装了一个HashMap，以beanName为键，对象为值进行保存。
+beanDifinationReader加载配置文件，并将配置文件的bean都解析成BeanDifination对象并保存到BeanDifinationRegistry的实现类中，该实现类
+封装了一个HashMap，以beanName为键，bean对象为值进行保存。
 Spring再对BeanDifination对象进行实例化和赋值形成一个装有对象的容器。
 
 
